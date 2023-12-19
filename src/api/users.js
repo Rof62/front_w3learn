@@ -1,7 +1,7 @@
 
 
-const API_USERS = "https://back-w3learn.vercel.app//api/users";
-// const API_USERS = "api/users";
+// const API_USERS = "https://back-w3learn.vercel.app/api/users";
+const API_USERS = "https://back-w3learn.vercel.app/api/users";
 
 
 export async function createUser(newUser) {
