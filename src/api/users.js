@@ -30,7 +30,7 @@ export async function createUser(newUser) {
 export async function signin(values) {
     const response = await fetch (`${API_USERS}/login`, {
         method: "POST",
-        credentials: "include",
+        // credentials: "include",
         headers: {
             "Content-Type": "application/json",
         },
@@ -52,7 +52,7 @@ export async function signin(values) {
 
 export async function getConnectedUser() {
     const response = await fetch(`${API_USERS}/userConnected`, {
-        credentials: "include",
+        // credentials: "include",
     });
     const userC = await response.json();
     
@@ -61,7 +61,7 @@ export async function getConnectedUser() {
 
 export async function logout() {
     const response = await fetch (`${API_USERS}/logout`, {
-        method: "DELETE",
-        credentials: "include",
+        // method: "DELETE",
+        // credentials: "include",
     })
 }
