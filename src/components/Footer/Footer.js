@@ -14,10 +14,10 @@ export default function Footer() {
                 <div className="d-flex flex-column align-items-center">
                     <NavLink className={styles.ul} title="lien pour aller sur la page d'accueil" to="/" ><img src={logo} alt="logo du site" className={`${styles.logo}`} /></NavLink> 
                     <div className={`d-flex ${styles.reseau}`}>
-                        <a href=""><img src={logo2} alt="lien pour aller sur facebook" /></a>
-                        <a href=""><img src={logo3} alt="lien pour aller sur instagram" /></a>
-                        <a href=""><img src={logo4} alt="lien pour aller sur reddit" /></a>
-                        <a href=""><img src={logo5} alt="lien pour aller sur twitter" /></a>
+                        <a href="https://fr-fr.facebook.com/" target="_blank"><img src={logo2} alt="lien pour aller sur facebook" /></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src={logo3} alt="lien pour aller sur instagram" /></a>
+                        <a href="https://www.reddit.com" target="_blank"><img src={logo4} alt="lien pour aller sur reddit" /></a>
+                        <a href="https://about.twitter.com/fr" target="_blank"><img src={logo5} alt="lien pour aller sur twitter" /></a>
                     </div>
                 </div>
                          <ul className={styles.ul}>
