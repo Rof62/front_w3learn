@@ -133,7 +133,7 @@ export default function ProfileGestion({ }) {
     console.log(user);
     return(
         <div className="d-flex align-items-center flex-column  mb20 mt20 ">
-            <h1>Gestion de profile</h1>
+            <h1>Gestion de profil</h1>
             <div className="cards">
               <div className="d-flex flex-column justify-content-center align-items-center mt20">
                 <h3>Bienvenue {user.username} </h3> 
